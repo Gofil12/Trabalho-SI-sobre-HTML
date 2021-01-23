@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="en">
 
 <head>
 	<title>Trabalho de Sistemas da Informação sobre HTML</title>
@@ -56,6 +56,9 @@
 						<li><a href="#" onclick="white()">Branco</a></li>
 					</ul>
 				</li>
+				<a href="mailto: 40472@ufp.edu.pt" type="button" class="btn btn-info navbar-btn">
+					<span class="glyphicon glyphicon-envelope"></span> Email
+				</a>
 			</ul>	
 			<form class="navbar-form navbar-right" name="form">
 				<div class="form-group">
