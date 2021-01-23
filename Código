@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+	<title>Trabalho de Sistemas da Informação sobre HTML</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Trabalho SI sobre HTML</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<div id="myModal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Multiplicar 2 números</h4>
+							</div>
+							<div class="modal-body">
+								<form name="numbers">
+									<input type="text" name="number1" placeholder="1º número">
+									<input type="text" name="number2" placeholder="2º número">
+									<button type="submit" class="btn btn-default" onclick="multiply()">Multiplicar</button>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<li><a href="#" data-toggle="modal" data-target="#myModal">Multiplicar 2 números</a></li>
+				<li><a href="https://theuselessweb.com/">Link</a></li>	
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Background
+						<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#" onclick="red()">Vermelho</a></li>
+						<li><a href="#" onclick="blue()">Azul</a></li>
+						<li><a href="#" onclick="white()">Branco</a></li>
+					</ul>
+				</li>
+			</ul>	
+			<form class="navbar-form navbar-right" name="form">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Texto" name="texto">
+				</div>
+				<button type="submit" class="btn btn-default" onclick="alerta()">Transformar</button>
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+
+<br></br>
+<br></br>
+
+<div class="panel-group" id="accordion">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Informações gerais</a>	
+			</h4>
+		</div>
+		<div id="collapse1" class="panel-collapse collapse">
+			<div class="panel-body"><h5>O meu nome é Gonçalo Filipe Dias Graça, nasci no dia 8 de Novembro de 2000 e tenho 20 anos. Vivo na cidade do Porto, numa zona muito próxima ao Estádio do Dragão, e atualmente estou a tirar uma licenciatura em Engenharia Informática na Universidade Fernando Pessoa. As minhas maiores paixões são o futebol e os videojogos.<p><p>Conclui o ensino secundário na Escola Secundária António Nobre em 2019 e nesse mesmo ano inscrevi-me em Engenharia Civil na Universidade Fernando Pessoa. No fim do meu 1ºano em Engenharia Civil resolvi mudar de curso e inscrevi-me no curso em que estou atualmente, Engenharia Informática.</p><p>Por ter crescido na cidade do Porto e por viver tão perto do Estádio do Dragão sou um adepto fervoroso do Futebol Clube do Porto.</p><p> O meu estilo de música favorito é o rap e o meu rapper preferido é o Eminem.</p></h5>
+			<img src="https://cdn1.newsplex.pt/fotos/2018/3/7/629356.jpg?type=Artigo" alt="Universidade Fernando Pessoa" width="300" height="200" class="img-rounded"></div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Actividades preferidas</a>
+			</h4>	
+		</div>
+		<div id="collapse2" class="panel-collapse collapse">	
+			<div class="panel-body"><h5>As minhas atividades favoritas são jogar futebol, jogar videojogos e ver os jogos do Futebol Clube do Porto!</h5>
+			<img src="https://images.trustinnews.pt/uploads/sites/5/2019/10/vicio-dos-videojogos-vai-ser-considerado-um-disturbio-psiquiatrico-2-1024x683.jpeg" alt="Videojogos" width="300" height="200" class="img-rounded"></div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Expectativas para o curso</a>
+			</h4>	
+		</div>
+		<div id="collapse3" class="panel-collapse collapse">	
+			<div class="panel-body"><h5>Atualmente as minhas expectativas em relação ao curso em que estou inscrito (Licenciatura em Engenharia Informática) são:<p><p>-concluir o curso com as médias mais altas possíveis de modo a ter uma vantagem em relação aos outros quando acabar o curso;</p><p>-tirar o máximo proveito de todas as UC's para ficar melhor preparado para o futuro e saber o máximo possível;</p><p>-concluir o curso em 3 anos sem reprovar a nenhuma UC;</p><p>-acabar o curso sendo um bom engenheiro informático com vários conhecimentos sobre a área.</p></h5>
+			<img src="https://autonoma.pt/wp-content/uploads/eng_informat_banner-1.jpg" alt="Videojogos" width="300" height="200" class="img-rounded"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	
+<script>
+function alerta() {
+	var x = document.forms["form"]["texto"].value;
+	var y = x.toUpperCase();
+	alert(y);
+}
+</script>
+
+<script>
+function red() {
+	document.body.style.backgroundColor = "red";
+}
+</script>
+
+<script>
+function blue() {
+	document.body.style.backgroundColor = "blue";
+}
+</script>
+
+<script>
+function white() {
+	document.body.style.backgroundColor = "white";
+}
+</script>
+
+<script>
+function multiply() {
+	var num1 = document.forms["numbers"]["number1"].value;
+	var num2 = document.forms["numbers"]["number2"].value;
+	var mul = num1 * num2;
+	alert(mul);
+}
+</script>
+</body>
+</html>
